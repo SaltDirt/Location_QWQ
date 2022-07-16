@@ -1,0 +1,20 @@
+name: Location_QWQ
+main: com.salt.locatf.MainClass
+version: 1.0
+author: SaltDirt
+commands:
+  location:
+    description: 获取一个玩家的坐标
+    usage: Enter the command,Dude
+  locationdouble:
+    description: 获取一个玩家的具体坐标
+    usage: Enter the command,Dude
+  moveto:
+    description: 将一个玩家移至另一个玩家的位置
+    usage: moveto <Player1> <Player2>
+  ping:
+    description: 获取一个玩家的延迟
+    usage: ping <Player>
+  getspawnpoint:
+    description: 获取一个玩家的重生点
+    usage: getspawnpoint <Player>
